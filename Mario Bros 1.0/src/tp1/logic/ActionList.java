@@ -45,7 +45,6 @@ public class ActionList {
     public List<Action> cut() {
     	List<Action> copy = new ArrayList<>(actions);
         actions.clear();
-        System.out.println("gfddfgdf");
         return copy;
     }
 }
